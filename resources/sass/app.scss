@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~sweetalert2/src/sweetalert2';
+@import 'default';
+#app {
+    overflow-x: hidden;
+}
+
+.main-container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-regular {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.main-medium {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.main-bold {
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-48 {
+    font-size: 48px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.bg-primary {
+    background: #00539f;
+}
+
+.text-primary {
+    color: #00539f;
+}
+
+.main-button {
+    background: #00539f;
+    padding: 15px 55px;
+    color: white;
+}
+
+.main-button:hover {
+    background: #3276b6;
+}
+
+.gray-text {
+    color: #ffffff80;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.minuse-span {
+    width: 32px;
+    border-bottom: 4px solid #00539f;
+}
+
+.text-red {
+    color: #E50000;
+}
+
+.text-gray-section {
+    color: #00000080;
+}
